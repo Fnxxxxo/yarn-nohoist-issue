@@ -6981,6 +6981,11 @@ vue@^2.5.22:
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.22.tgz#3bf88041af08b8539c37b268b70ca79245e9cc30"
   integrity sha1-O/iAQa8IuFOcN7JotwynkkXpzDA=
 
+vuex@2.5.0:
+  version "2.5.0"
+  resolved "http://registry.npm.taobao.org/vuex/download/vuex-2.5.0.tgz#20f0265ade6c9a5ac6724a405d3ffdb4726c9741"
+  integrity sha1-IPAmWt5smlrGckpAXT/9tHJsl0E=
+
 vuex@^3.1.0:
   version "3.1.0"
   resolved "http://registry.npm.taobao.org/vuex/download/vuex-3.1.0.tgz#634b81515cf0cfe976bd1ffe9601755e51f843b9"
