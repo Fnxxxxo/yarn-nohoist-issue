@@ -1,0 +1,28 @@
+{
+  "name": "yarn-nohoist-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fnxxxxo/yarn-nohoist-issue.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fnxxxxo/yarn-nohoist-issue/issues"
+  },
+  "homepage": "https://github.com/Fnxxxxo/yarn-nohoist-issue#readme",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "projects/*"
+    ],
+    "nohoist": [
+      "web/nuxt/**"
+    ]
+  }
+}
